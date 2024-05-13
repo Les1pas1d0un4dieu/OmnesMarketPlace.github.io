@@ -1,0 +1,435 @@
+.HEADER {
+    background-color: #cdc1c13f;
+    border-style: outset;
+    color: #ff7f00;
+    border-color: #ff7f00;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 100%;
+    height: 10%;
+}
+
+.imagelogo {
+    width: 30%;
+    height: 30%;
+    margin-left: 0.5%;
+    border: 1px solid green;
+}
+
+.NAVIGATION {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    height: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Block1,
+.Block2,
+.Block3,
+.Block4,
+.Block5 {
+    padding: 1%;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    float: left;
+    margin-right: 1%;
+}
+
+.Block1 {
+    width: 4%;
+}
+
+.Block2 {
+    width: 8%;
+}
+
+.Block3 {
+    width: 6%;
+}
+
+.Block4 {
+    width: 3%;
+}
+
+.Block5 {
+    width: 8%;
+}
+
+.Block6 {
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    float: left;
+}
+
+.circle {
+    background-color: white;
+    color: black;
+    height: 50%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connexion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    margin-left: 5%;
+}
+
+.barrerecherche {
+    background-color: #ff7f00;
+    border-style: outset;
+    border-color: #cdc1c13f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+.forme {
+    background-color: white;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 4px;
+}
+
+.recherche {
+    /*flex: 1;*/
+    padding: 8px;
+    width: 400px;
+    font-size: 100%;
+    border: 1px solid white;
+}
+
+.soumettre {
+    background-color: #ff7f00;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+.Discussion {
+    width: 12%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7f00;
+    border: 1px solid #ff7f00;
+    color: black;
+    border: none;
+    float: left;
+    margin-left: 10%;
+}
+
+.SmS {
+    margin-left: 10px;
+}
+
+.SECTION {
+    width: 100%;
+    display: flex;
+}
+
+.centre {
+    width: 70%;
+}
+
+.bord_gauche,
+.bord_droite {
+    width: 15%;
+    background-color: #cdc1c13f;
+}
+
+.FOOTER {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.Reseaux {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Facebook,
+.Threads,
+.Instagram,
+.Pinterest,
+.Linkedin,
+.Youtube {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Accroche {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.Info {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link1,
+.link2,
+.link3,
+.link4 {
+    text-align: center;
+    border: 1px;
+    color: white;
+    float: left;
+}
+
+.link1 {
+    width: 10%;
+}
+
+.link2 {
+    width: 200px;
+}
+
+.link3 {
+    width: 150px;
+}
+
+.link4 {
+    width: 80px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* Partie à changer pour chaque page */
+
+.InfoUser {
+    width: 90%;
+    aspect-ratio: 5 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ff7f00;
+    box-shadow: 0 0 10px rgb(103, 94, 94);
+    border-radius: 10px;
+    background-color: #cdc1c13f;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.PhotoUser {
+    margin-left: 20px;
+    display: inline-flex;
+}
+  
+.LettreUser {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ff7f00;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+
+.AddPhoto {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ff7f00;
+    border-radius: 50%;
+    background-color: white;
+    color: #ff7f00;
+    position: 100 100px;
+}
+
+.NameUser {
+    font-size: 50px;
+}
+
+.ProfilPublic {
+    margin-right: 20px;
+    color: #ff7f00;
+}
+
+.Portefeuille {
+    width: 90%;
+    aspect-ratio: 5 / 1;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ff7f00;
+    box-shadow: 0 0 10px rgb(103, 94, 94);
+    border-radius: 10px;
+    background-color: #cdc1c13f;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Portefeuille p {
+    color: black;
+}
+
+.Money {
+    color: #ff7f00 !important;
+    font-size: 20px;
+}
+
+.Security {
+    width: 90%;
+    aspect-ratio: 4 / 1;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ff7f00;
+    box-shadow: 0 0 10px rgb(103, 94, 94);
+    border-radius: 10px;
+    background-color: #cdc1c13f;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Security a {
+    color: #ff7f00;
+}
+
+.Cercle1 {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #ff7f00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MesArticles {
+    width: 90%;
+    aspect-ratio: 5 / 1;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ff7f00;
+    box-shadow: 0 0 10px rgb(103, 94, 94);
+    border-radius: 10px;
+    background-color: #cdc1c13f;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.ProfilEspaces {
+    width: 90%;
+    aspect-ratio: 5 / 1;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ff7f00;
+    box-shadow: 0 0 10px rgb(103, 94, 94);
+    border-radius: 10px;
+    background-color: #cdc1c13f;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.Parametres {
+    width: 90%;
+    aspect-ratio: 5 / 1;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ff7f00;
+    box-shadow: 0 0 10px rgb(103, 94, 94);
+    border-radius: 10px;
+    background-color: #cdc1c13f;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.CentreAide {
+    width: 90%;
+    aspect-ratio: 5 / 1;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ff7f00;
+    box-shadow: 0 0 10px rgb(103, 94, 94);
+    border-radius: 10px;
+    background-color: #cdc1c13f;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+
+/* Alpha tu mets le tien ici */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Alexandre tu mets le tien ici */
+
+
